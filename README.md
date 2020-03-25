@@ -11,3 +11,7 @@ La fuente principal corresponde a los reportes diarios del [ministerio de salud]
 Sin embargo existen ciertos casos en los cuales los mismos no brindan precisiones geográficas. En esas instancias
 se busco en diarios la información o en ultima instancia se asumio alguna distribución. Estos casos se pueden encontrar en
 [README_DATOS](data/README_DATOS.md)
+
+## WIP
+
+Los casos recuperados se encuentran en análisis para su actualizacion (la discriminación de recuperados no es clara en la información actual)
