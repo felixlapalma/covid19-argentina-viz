@@ -14,7 +14,7 @@ se busco en diarios la información o en ultima instancia se asumio alguna distr
 
 ## Viz
 
-Se genera un [html](https://htmlpreview.github.io/?https://github.com/felixlapalma/covid19-argentina-viz/blob/master/products/20200324_reporte.html) con información relativa a casos confirmados/muertes/recuperados.
+Se genera un [html](https://htmlpreview.github.io/?https://github.com/felixlapalma/covid19-argentina-viz/master/products/20200324_reporte.html) con información relativa a casos confirmados/muertes/recuperados.
 
 
 ## WIP
