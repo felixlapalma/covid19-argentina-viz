@@ -12,6 +12,11 @@ Sin embargo existen ciertos casos en los cuales los mismos no brindan precisione
 se busco en diarios la información o en ultima instancia se asumio alguna distribución. Estos casos se pueden encontrar en
 [README_DATOS](data/README_DATOS.md)
 
+## Viz
+
+Se genera un [html](https://htmlpreview.github.io/?https://github.com/felixlapalma/covid19-argentina-viz/blob/master/products/20200324_reporte.html) con información relativa a casos confirmados/muertes/recuperados.
+
+
 ## WIP
 
 Los casos recuperados se encuentran en análisis para su actualizacion (la discriminación de recuperados no es clara en la información actual)
