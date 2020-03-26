@@ -5,6 +5,13 @@ registro del csv 20200317_provincias_* (esto deja inconsitente la suma para ese 
 
 - En el reporte del 20200323 se menciona un caso duplicado (ver en confirmados 9).
 
+- Se utilizaron algunos graficos de [infobae](https://www.infobae.com/sociedad/2020/03/18/coronavirus-en-la-argentina-4-graficos-para-comprender-el-avance-de-la-pandemia/) para contrastar
+ciertos casos. 
+
+### Correciones
+
+A partir del 20200324 se corrigen los casos indicando en una planilla yyyymmdd_provincias_filledFIX.csv los cambios.
+
 ### Confirmados
 
 1. https://www.bbc.com/mundo/noticias-america-latina-51728654
@@ -37,6 +44,7 @@ registro del csv 20200317_provincias_* (esto deja inconsitente la suma para ese 
 9. https://www.lavoz.com.ar/ciudadanos/tercer-fallecido-en-pais-y-un-nuevo-contagio-en-cordoba
   * 1 Caso en Cordoba (diferencia con nación ->6 nacion contra 5 reportados en CBA) - **ELIJO** sacarselo al 20200319_provincias_ (*Deja inconsistente la suma ese dia*)
 
+10. 20200325 reporte diario: se descartan 2 reportados el 20200324. 
 
 ### Muertes:
 
