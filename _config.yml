@@ -1,3 +1,6 @@
+# Build settings
+theme: minima
+
 title: COVID19 - ARGENTINA
 author:
   name: felixlapalma
@@ -22,5 +25,3 @@ minima:
 # this and add the path to the pages in order as they should show up
 #header_pages:
 - products/ultimo_reporte.html
-# Build settings
-theme: minima
