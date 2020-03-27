@@ -21,7 +21,7 @@ Los casos recuperados se encuentran en análisis para su actualizacion (la discr
 
 ## Credits
 
-Credits to [@PratapVardhan](https://twitter.com/PratapVardhan)). 
+Credits to [@PratapVardhan](https://twitter.com/PratapVardhan). 
 
 The base jnb was taken from [base_jnb](https://github.com/pratapvardhan/notebooks/blob/master/covid19/covid19-overview.ipynb)
 and the base template (for viz) was taken from [base_template](https://github.com/pratapvardhan/notebooks/blob/master/covid19/overview.tpl)
