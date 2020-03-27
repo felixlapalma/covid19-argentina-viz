@@ -69,7 +69,9 @@ provDict = {'Ciudad Autónoma de Buenos Aire': 'CABA'}
 # CSV sources
 data_src = '../data/filled/*.csv'
 data_prod = '../products'
+data_includes_='../_includes'
 os.makedirs(data_prod, exist_ok=True)
+os.makedirs(data_includes_, exist_ok=True)
 #
 df_ = cat_df(data_src)
 df_['provincia'] = df_['provincia'].apply(
@@ -86,7 +88,7 @@ dft_deaths = get_frame_unstack(df_, 'muertes')
 dft_recovered = get_frame_unstack(df_, 'recuperados')
 # dates
 last_ = dft_cases.columns[-1]
-nlast_ = dft_cases.columns[-3]
+nlast_ = dft_cases.columns[-2]
 
 
 # In[5]:
@@ -141,7 +143,7 @@ html = template.render(
     newcases=dft_ct_new_cases.loc[:, :],
     np=np, pd=pd, enumerate=enumerate)
 name_html = os.path.join(data_prod, last_.strftime('%Y%m%d')+'_reporte.html')
-latest_html = os.path.join(data_prod, 'ultimo_reporte.html')
+latest_html = os.path.join(data_includes_, 'ultimo_reporte.html')
 reporte_html = f'<div>{html}</div>'
 write_report(reporte_html, name_html)
 write_report(reporte_html, latest_html)
