@@ -1,5 +1,10 @@
 title: "Covid19 en Argentina"
+future: true
 theme: minima
+plugins:
+  - jekyll-octicons
+  - jekyll-twitter-plugin
+  - jekyll-relative-links
 minima:
   social_links:
     twitter: lixred
