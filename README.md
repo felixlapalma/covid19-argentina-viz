@@ -1,5 +1,6 @@
 # covid19-argentina-viz
-Repository to leave a nice (credits to @PratapVardhan) viz regarding covid19 cases in Argentina. 
+
+Repository to leave a nice viz regarding covid19 cases in Argentina (credits to [@PratapVardhan](https://twitter.com/PratapVardhan)). 
 
 The base jnb was taken from [base_jnb](https://github.com/pratapvardhan/notebooks/blob/master/covid19/covid19-overview.ipynb)
 and the base template (for viz) was taken from [base_template](https://github.com/pratapvardhan/notebooks/blob/master/covid19/overview.tpl)
@@ -14,8 +15,9 @@ se busco en diarios la información o en ultima instancia se asumio alguna distr
 
 ## Viz
 
-Se genera un [html](https://htmlpreview.github.io/?https://github.com/felixlapalma/covid19-argentina-viz/master/products/ultimo_reporte.html) con información relativa a casos confirmados/muertes/recuperados.
 {% include ultimo_reporte.html %}
+
+Reporte en [html](https://htmlpreview.github.io/?https://github.com/felixlapalma/covid19-argentina-viz/master/products/ultimo_reporte.html) con información relativa a casos confirmados/muertes/recuperados.
 
 ## WIP
 
