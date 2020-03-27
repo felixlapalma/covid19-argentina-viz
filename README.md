@@ -1,7 +1,3 @@
-![](https://github.com/felixlapalma/covid19-argentina/workflows/GH-Pages%20Status/badge.svg) 
-
-https://felixlapalma.github.io/covid19-argentina-viz/
-
 # Covid19 en Argentina
 
 Repository to leave a nice viz regarding covid19 cases in Argentina (credits to [@PratapVardhan](https://twitter.com/PratapVardhan)). 
