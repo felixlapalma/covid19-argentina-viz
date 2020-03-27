@@ -1,4 +1,6 @@
-## Comentarios Generales
+## Datos Faltantes
+
+### Comentarios Generales
 
 - En el reporte del 20200318 se comenta que en el reporte del 20200317 se indico un caso en Provincia de Buenos Aires que no correspondia -> Borro el
 registro del csv 20200317_provincias_* (esto deja inconsitente la suma para ese día).
@@ -8,11 +10,11 @@ registro del csv 20200317_provincias_* (esto deja inconsitente la suma para ese 
 - Se utilizaron algunos graficos de [infobae](https://www.infobae.com/sociedad/2020/03/18/coronavirus-en-la-argentina-4-graficos-para-comprender-el-avance-de-la-pandemia/) para contrastar
 ciertos casos. 
 
-### Correciones
+#### Correciones
 
 A partir del 20200324 se corrigen los casos indicando en una planilla yyyymmdd_provincias_filledFIX.csv los cambios.
 
-### Confirmados
+#### Confirmados
 
 1. https://www.bbc.com/mundo/noticias-america-latina-51728654
   * 20200303 -> 1 caso (primer caso)
@@ -46,7 +48,7 @@ A partir del 20200324 se corrigen los casos indicando en una planilla yyyymmdd_p
 
 10. 20200325 reporte diario: se descartan 2 reportados el 20200324. 
 
-### Muertes:
+#### Muertes:
 
 1. https://www.infobae.com/coronavirus/2020/03/22/confirmaron-41-nuevos-casos-de-coronavirus-en-la-argentina-y-el-total-de-infectados-asciende-a-266/
   * 1 Muerto en CABA (7 de Marzo)
@@ -58,7 +60,7 @@ A partir del 20200324 se corrigen los casos indicando en una planilla yyyymmdd_p
 
 
 
-### Recuperados - WIP
+#### Recuperados - WIP
 
 https://www.infobae.com/coronavirus/2020/03/14/hay-11-nuevos-casos-de-coronavirus-en-la-argentina-y-el-total-de-infectados-asciende-a-45/
 1 Recuperado (el primero) -> Jueves 12 de Marzo
