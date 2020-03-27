@@ -3,3 +3,4 @@ minima:
   social_links:
     twitter: lixred
     github: felixlapalma
+show_excerpts: true
