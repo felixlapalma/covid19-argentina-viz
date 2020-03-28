@@ -124,8 +124,9 @@ s_bsas = df_table[df_table['provincia'].eq(
     'Buenos Aires')][metrics].sum().add_prefix('BSAS ')
 s_cba = df_table[df_table['provincia'].eq(
     'Córdoba')][metrics].sum().add_prefix('CBA ')
+s_nacion=df_table[df_table['provincia'].eq('Argentina_Nacion')][metrics].sum().add_prefix('')
 summary = {'updated': pd.to_datetime(last_), 'since': pd.to_datetime(nlast_)}
-summary = {**summary, **df_table[metrics].sum(), **s_caba, **s_bsas, **s_cba}
+summary = {**summary, **s_nacion, **s_caba, **s_bsas, **s_cba}
 #
 dft_ct_cases = dft_cases.cumsum(axis=1)
 dft_ct_new_cases = dft_ct_cases.diff(axis=1).fillna(0).astype(int)
