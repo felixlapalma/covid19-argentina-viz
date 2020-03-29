@@ -29,22 +29,21 @@ _ = locale.setlocale(locale.LC_TIME, 'es_ES.utf8')
 
 # helpers
 def cat_df(data_src):
-    lst_ = glob.glob(data_src)
+    lst_=glob.glob(data_src)
     lst_.sort()
-    lst_df_ = []
+    lst_df_=[]
     for l in lst_:
-        df_ = pd.read_csv(l, parse_dates=[0])
+        df_=pd.read_csv(l,parse_dates=[0])
         lst_df_.append(df_)
-    df_cat_ = pd.concat(lst_df_, axis=0,)
-    df_cat_['fecha'] = pd.to_datetime(df_cat_['fecha'].dt.strftime('%Y-%m-%d'))
+    df_cat_=pd.concat(lst_df_,axis=0,)
+    df_cat_['fecha']=pd.to_datetime(df_cat_['fecha'].dt.strftime('%Y-%m-%d'))
+    # Group all with "FIX"
+    df_cat_=df_cat_.groupby(['provincia','fecha'])[['confirmados','muertes','recuperados']].sum().reset_index()
     return df_cat_
 #
-
-
-def get_frame_unstack(df_, oncol, group_by_lst=['provincia', 'fecha']):
-    s = df_.groupby(group_by_lst)[oncol].sum().unstack()
+def get_frame_unstack(df_,oncol,group_by_lst=['provincia','fecha']):
+    s=df_.groupby(group_by_lst)[oncol].sum().unstack()
     return s
-
 
 def get_template(path):
     from urllib.parse import urlparse
@@ -53,27 +52,26 @@ def get_template(path):
         return urlopen(path).read().decode('utf8')
     return open(path).read()
 
-
-def write_report(hmtl, out_name):
-    with open(out_name, 'w') as f:
+def write_report(hmtl,out_name):
+    with open(out_name,'w') as f:
         f.write(html)
-
-
+    
 #
-provDict = {'Ciudad Autónoma de Buenos Aire': 'CABA'}
+provDict={'Ciudad Autónoma de Buenos Aire':'CABA'}
+
 
 
 # In[3]:
 
-
 # CSV sources
-data_src = '../data/filled/*.csv'
-data_prod = '../products'
+data_src_provincia='../data/filled/*provincia*.csv'
+data_src_argentina='../data/filled/*argentina*.csv'
+data_prod='../products'
 data_includes_='../_includes'
-os.makedirs(data_prod, exist_ok=True)
+os.makedirs(data_prod,exist_ok=True)
 os.makedirs(data_includes_, exist_ok=True)
 #
-df_ = cat_df(data_src)
+df_=pd.concat([cat_df(data_src_provincia),cat_df(data_src_argentina)])
 df_['provincia'] = df_['provincia'].apply(
     lambda x: provDict[x] if x in provDict else x)
 df_.head()
@@ -88,7 +86,7 @@ dft_deaths = get_frame_unstack(df_, 'muertes')
 dft_recovered = get_frame_unstack(df_, 'recuperados')
 # dates
 last_ = dft_cases.columns[-1]
-nlast_ = dft_cases.columns[-2]
+nlast_ = dft_cases.columns[-3]
 
 
 # In[5]:
