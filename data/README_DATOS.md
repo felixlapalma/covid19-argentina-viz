@@ -13,6 +13,8 @@ ciertos casos.
 - Se incorpora los casos reportados por [@jorgeluisaliaga](https://twitter.com/jorgeluisaliaga) en [src](https://t.co/A6X5GTltVQ?amp=1) como recopilación
 de los casos nacionales. En general existen inconvenientes para mapear las sumas totales de las provincias al total nacional.
 
+- 20200327_provincias_FIXfilled.csv: incorpora 16 casos reubicados informados en informer del dia 28 (en funcion de los datos del dia 29, donde el ministerio informa los casos por provincia).
+
 #### Correciones
 
 A partir del 20200324 se corrigen los casos indicando en una planilla yyyymmdd_provincias_filledFIX.csv los cambios.
