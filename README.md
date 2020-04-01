@@ -6,6 +6,8 @@ Reporte en [html](https://htmlpreview.github.io/?https://github.com/felixlapalma
 
 {% include ultimo_reporte.html %}
 
+{% include ultimo_reporte_lines.html %}
+
 ## Fuentes
 
 La fuente principal corresponde a los reportes diarios del [ministerio de salud](https://www.argentina.gob.ar/salud/coronavirus-COVID-19).
