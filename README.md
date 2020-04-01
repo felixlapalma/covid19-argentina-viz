@@ -6,6 +6,7 @@ Reporte en [html](https://htmlpreview.github.io/?https://github.com/felixlapalma
 
 {% include ultimo_reporte.html %}
 
+### Viz - Curvas
 Curvas correspondientes al mencionado reporte:
 
 {% include ultimo_reporte_lines.html %}
