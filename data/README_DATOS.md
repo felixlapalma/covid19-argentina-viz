@@ -15,6 +15,8 @@ de los casos nacionales. En general existen inconvenientes para mapear las sumas
 
 - 20200327_provincias_FIXfilled.csv: incorpora 16 casos reubicados informados en informer del dia 28 (en funcion de los datos del dia 29, donde el ministerio informa los casos por provincia).
 
+-2020040XXXX_argentina_FIXfilled.csv: incorpora una muerte, en los reportes del dia 01/04 se informa de 36 pero la suma da 35.ss
+
 #### Correciones
 
 A partir del 20200324 se corrigen los casos indicando en una planilla yyyymmdd_provincias_filledFIX.csv los cambios.
