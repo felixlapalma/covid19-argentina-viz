@@ -14,7 +14,7 @@ Curvas correspondientes al mencionado reporte:
 
 <br>
 
-## Viz - Heatmap
+### Viz - Heatmap
 
 Y una visualización e tipo heatmap de los casos confirmados por dia.
 
