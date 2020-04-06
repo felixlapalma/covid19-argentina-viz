@@ -3,23 +3,13 @@ description: "Visualización de casos de COVID19 en Argentina"
 github_username: felixlapalma
 github_repo: "covid19-argentina-viz"
 url: "https://felixlapalma.github.io"
-
 future: true
-
 theme: minima
-
 plugins:
   - jekyll-octicons
   - jekyll-twitter-plugin
-  - jekyll-relative-links
-
 minima:
   social_links:
     twitter: lixred
     github: felixlapalma
-
-relative_links:
-  enabled: true
-  collections: true
-
 show_excerpts: true
