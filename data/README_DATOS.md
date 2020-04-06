@@ -15,7 +15,10 @@ de los casos nacionales. En general existen inconvenientes para mapear las sumas
 
 - 20200327_provincias_FIXfilled.csv: incorpora 16 casos reubicados informados en informer del dia 28 (en funcion de los datos del dia 29, donde el ministerio informa los casos por provincia).
 
--2020040XXXX_argentina_filled.csv: se corrige el dia 01-04 , notar que dos reportes supestamente identicos fueron cambiados (la version del 20200401 cambia)
+- 2020040XXXX_argentina_filled.csv: se corrige el dia 01-04 , notar que dos reportes supestamente identicos fueron cambiados (la version del 20200401 cambia)
+
+- *20200404: Se cambia a casos.xlsx (quedan en desuso los csv - [Tag v0.0.1](https://github.com/felixlapalma/covid19-argentina-viz/releases/tag/v0.0.1))* 
+
 
 #### Correciones
 

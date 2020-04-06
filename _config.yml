@@ -2,16 +2,27 @@ title: "Covid19 en Argentina"
 description: "Visualización de casos de COVID19 en Argentina"
 github_username: felixlapalma
 github_repo: "covid19-argentina-viz"
-url: "https://felixlapalma.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://felixlapalma.github.io"
 
 future: true
+
 theme: minima
-minima:
-  social_links:
-    twitter: lixred
-    github: felixlapalma
+
 plugins:
   - jekyll-octicons
   - jekyll-twitter-plugin
   - jekyll-relative-links
+
+minima:
+  social_links:
+    twitter: lixred
+    github: felixlapalma
+
+relative_links:
+  enabled: true
+  collections: true
+
+include:
+  - INDEX.md
+
 show_excerpts: true

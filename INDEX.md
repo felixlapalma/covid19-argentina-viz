@@ -1,13 +1,13 @@
 # Covid19 en Argentina
 
-## Viz - Viz Curvas
+## Viz
 
-Reporte y curvas en  información relativa a casos confirmados/muertes/recuperados de COVID19 en Argentina.
+Reporte en [html](https://htmlpreview.github.io/?https://github.com/felixlapalma/covid19-argentina-viz/master/products/ultimo_reporte.html) con información relativa a casos confirmados/muertes/recuperados de COVID19 en Argentina.
 
-- [reporte](https://htmlpreview.github.io/?https://github.com/felixlapalma/covid19-argentina-viz/master/_includes/ultimo_reporte.html)
-- [curvas](https://htmlpreview.github.io/?https://github.com/felixlapalma/covid19-argentina-viz/master/_includes/ultimo_reporte_lines.html)
+{% include ultimo_reporte.html %}
 
 ### Viz - Curvas
+
 Curvas correspondientes al mencionado reporte:
 
 {% include ultimo_reporte_lines.html %}
