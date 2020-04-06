@@ -12,15 +12,6 @@ Curvas correspondientes al mencionado reporte:
 
 {% include ultimo_reporte_lines.html %}
 
-<br>
-
-### Viz - Heatmap
-
-Y una visualización e tipo heatmap de los casos confirmados por dia.
-
-{% include ultimo_reporte_heatmap.html %}
-
-
 ## Fuentes
 
 La fuente principal corresponde a los reportes diarios del [ministerio de salud](https://www.argentina.gob.ar/salud/coronavirus-COVID-19).
