@@ -14,6 +14,8 @@ Curvas correspondientes al mencionado reporte:
 
 ### Viz - Heatmap
 
+Y una visualización e tipo heatmap de los casos confirmados por dia.
+
 {% include ultimo_reporte_heatmap.html %}
 
 
