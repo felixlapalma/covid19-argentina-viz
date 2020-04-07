@@ -19,6 +19,8 @@ de los casos nacionales. En general existen inconvenientes para mapear las sumas
 
 - *20200404: Se cambia a casos.xlsx (quedan en desuso los csv - [Tag v0.0.1](https://github.com/felixlapalma/covid19-argentina-viz/releases/tag/v0.0.1))* 
 
+- 20200406: Falta reporte matutino (informe de recuperados y posibles decesos). Existen dos (2) fallecidos que no se reportan por provincia. La cuenta salta de 46 (infome vespertino 20200405) 
+a 53 (informe vespertino 20200406), pero en este ultimo caso solo reportan 5 casos. 
 
 #### Correciones
 
