@@ -132,8 +132,8 @@ provDict={'Ciudad Autónoma de Buenos Aire':'CABA'}
 
 #hide
 ## make products folders
-data_prod = '../products'
-data_includes_ = '../_includes'
+data_prod = 'products'
+data_includes_ = '_includes'
 os.makedirs(data_prod, exist_ok=True)
 os.makedirs(data_includes_, exist_ok=True)
 
@@ -151,7 +151,7 @@ os.makedirs(data_includes_, exist_ok=True)
 # CSV sources
 local=True # if false import from arcovid
 if local:
-    data_src_= '../data/casos.xlsx'
+    data_src_= 'data/casos.xlsx'
     #
     df_ = get_prc_df_local(data_src_)
     df_['provincia'] = df_['provincia'].apply(
@@ -224,7 +224,7 @@ df_table.head(10)
 
 
 #hide_input
-template = Template(get_template('../viz_template/overview_argentina.tpl'))
+template = Template(get_template('viz_template/overview_argentina.tpl'))
 html = template.render(
     D=summary, table=df_table,  
     newcases=dft_ct_new_cases.loc[:,:],
