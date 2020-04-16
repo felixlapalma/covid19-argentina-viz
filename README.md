@@ -1,5 +1,7 @@
 # Covid19 en Argentina
 
+![Update_COVID19_Argentina](https://github.com/felixlapalma/covid19-argentina-viz/workflows/Update_COVID19_Argentina/badge.svg)
+
 ## Viz
 
 Reporte en [html](https://htmlpreview.github.io/?https://github.com/felixlapalma/covid19-argentina-viz/master/products/ultimo_reporte.html) con información relativa a casos confirmados/muertes/recuperados de COVID19 en Argentina.
