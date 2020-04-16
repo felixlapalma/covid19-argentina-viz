@@ -132,9 +132,7 @@ provDict={'Ciudad Autónoma de Buenos Aire':'CABA'}
 
 #hide
 ## make products folders
-data_prod = 'products'
 data_includes_ = '_includes'
-os.makedirs(data_prod, exist_ok=True)
 os.makedirs(data_includes_, exist_ok=True)
 
 
@@ -232,7 +230,7 @@ html = template.render(
 
 reporte_html=f'<div>{html}</div>'
 if write_products:
-    name_html=os.path.join(data_prod,last_.strftime('%Y%m%d')+'_reporte.html')
+    name_html=os.path.join(data_includes_,last_.strftime('%Y%m%d')+'_reporte.html')
     latest_html=os.path.join(data_includes_,'ultimo_reporte.html')
     write_report(reporte_html,name_html)
     write_report(reporte_html,latest_html)
