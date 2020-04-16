@@ -31,9 +31,11 @@ from altair import datum
 #
 from jinja2 import Template
 from IPython.display import HTML,display
-# Set Language
-_=locale.setlocale(locale.LC_TIME,'es_ES.utf8')
-
+try:
+    # Set Language
+    _=locale.setlocale(locale.LC_TIME,'es_ES.utf8')
+except:
+    pass
 
 # In[2]:
 

@@ -5,6 +5,7 @@ on:
     branches: [ master ]
     paths:
       - 'data/casos.xlsx'
+      - 'argentina_covid19_viz.py'
 
 jobs:
   chartUpdate:
