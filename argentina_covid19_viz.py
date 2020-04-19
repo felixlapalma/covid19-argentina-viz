@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# 
+ 
 # # "COVID19- Argentina"
 # > "Visualización de casos basado en [jupyter-nb](https://github.com/pratapvardhan/notebooks/blob/master/covid19/covid19-overview.ipynb) de [@PratapVardhan](https://twitter.com/PratapVardhan) "
 # - toc: false
