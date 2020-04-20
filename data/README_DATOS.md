@@ -24,9 +24,8 @@ a 53 (informe vespertino 20200406), pero en este ultimo caso solo reportan 5 cas
 
 - 20200417: En el reportes se menciona que un caso de chubut se relocaliza a Buenos Aires (corregido en reporte_fix @ casos.xlsx)
 
-#### Correciones
+- 20200420: Los reportes e imagenes que originan los datos se mudan a [src](https://drive.google.com/drive/folders/1RrV39e8ZBR2GGdHf-zQSpgpAIk7UALoO?usp=sharing)
 
-A partir del 20200324 se corrigen los casos indicando en una planilla yyyymmdd_provincias_filledFIX.csv los cambios.
 
 #### Confirmados
 
@@ -74,3 +73,5 @@ A partir del 20200324 se corrigen los casos indicando en una planilla yyyymmdd_p
 
 1. [link](https://www.infobae.com/coronavirus/2020/03/14/hay-11-nuevos-casos-de-coronavirus-en-la-argentina-y-el-total-de-infectados-asciende-a-45/)
   * 1 Recuperado (el primero) -> Jueves 12 de Marzo
+
+2. [link](http://chaco.gov.ar/covid19/): Recuperados de Chaco a partir de información del Ministerio de Salud de Chaco y su cuenta de Twitter @ChacoSalud 
