@@ -75,3 +75,5 @@ a 53 (informe vespertino 20200406), pero en este ultimo caso solo reportan 5 cas
   * 1 Recuperado (el primero) -> Jueves 12 de Marzo
 
 2. [link](http://chaco.gov.ar/covid19/): Recuperados de Chaco a partir de información del Ministerio de Salud de Chaco y su cuenta de Twitter @ChacoSalud 
+
+3. [link](https://www.santafe.gob.ar/index.php/web/content/view/full/234420/(subtema)/93802): Recuperados Santa Fe
