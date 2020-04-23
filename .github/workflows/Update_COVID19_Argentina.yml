@@ -28,7 +28,7 @@ jobs:
       run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
 
     - name: Commit changes
-      uses: EndBug/add-and-commit@v4
+      uses: EndBug/add-and-commit@master
       with:
         author_name: felixlapalma
         author_email: felixlapalma@gmail.com
