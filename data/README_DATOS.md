@@ -85,3 +85,5 @@ a 53 (informe vespertino 20200406), pero en este ultimo caso solo reportan 5 cas
 6. [link](https://www.bariloche2000.com/noticias/leer/anunciaron-restricciones-de-actividades-que-habian-sido-habilitadas-en-bariloche/126576): Rio Negro (No oficial)
 
 7. [link](https://www.gba.gob.ar/saludprovincia/boletin_epidemiologico): Buenos Aires (informe semanales)
+
+8. [link](https://twitter.com/GobiernoTDF): Tierra del Fuego
