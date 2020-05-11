@@ -87,3 +87,5 @@ a 53 (informe vespertino 20200406), pero en este ultimo caso solo reportan 5 cas
 7. [link](https://www.gba.gob.ar/saludprovincia/boletin_epidemiologico): Buenos Aires (informe semanales)
 
 8. [link](https://twitter.com/GobiernoTDF): Tierra del Fuego
+
+9. [link](https://www.buenosaires.gob.ar/coronavirus/noticias/actualizacion-de-los-casos-de-coronavirus-en-la-ciudad-buenos-aires): CABA
